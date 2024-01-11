@@ -17,6 +17,22 @@
   box-sizing: border-box;
 }
 
+/* ---------------------------------------------- HEADER */
+
+header {
+  background-color: var(--color-beige);
+  color: var(--color-darkgreen);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+/* ---------------------------------------------- BODY */
+
 body {
   background-color: var(--color-offwhite);
   color: var(--color-darkgreen);
@@ -41,3 +57,5 @@ a {
 a:hover {
   font-size: 110%;
 }
+
+/* ---------------------------------------------- BUTTON */
