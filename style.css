@@ -1,0 +1,43 @@
+:root {
+  --color-darkgreen: #1b381d;
+  --color-lightgreen: #789262;
+  --color-offwhite: #f1f1ea;
+  --color-white: #ffffff;
+  --color-beige: #cbc8b6;
+  --color-black: #1a1716;
+
+  --font-family-h: "Playfair Display", serif;
+  --font-family-p: "Roboto", sans-serif;
+  --font-family-b: "Lato", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-offwhite);
+  color: var(--color-darkgreen);
+}
+
+h1,
+h2 {
+  font-family: var(--font-family-h);
+}
+
+p {
+  font-family: var(--font-family-p);
+  font-size: 1.2rem;
+  color: var(--color-black);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-darkgreen);
+}
+
+a:hover {
+  font-size: 110%;
+}
