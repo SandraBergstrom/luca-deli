@@ -20,15 +20,24 @@
 /* ---------------------------------------------- HEADER */
 
 header {
-  background-color: var(--color-beige);
+  background-color: var(--color-offwhite);
   color: var(--color-darkgreen);
   position: sticky;
   top: 0;
   z-index: 1;
+  padding: 1rem 0;
+}
+
+figure img {
+  width: 100px;
+}
+
+.navbar {
+  background-color: var(--color-offwhite) !important;
 }
 
 nav ul li {
-  list-style-type: none;
+  margin: 0 1rem;
 }
 
 /* ---------------------------------------------- BODY */
@@ -55,7 +64,7 @@ a {
 }
 
 a:hover {
-  font-size: 110%;
+  font-weight: bold;
 }
 
 /* ---------------------------------------------- BUTTON */
