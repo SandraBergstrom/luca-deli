@@ -88,9 +88,10 @@ a {
   }
 }
 
-.dark-green-bg {
+.footer-bg {
   background-color: var(--color-darkgreen);
   color: var(--color-offwhite);
+  align-items: center;
 }
 
 /* ---------------------------------------------- CTA BUTTON */
@@ -223,6 +224,8 @@ footer {
 
   ul {
     padding: 0;
+    margin: 0;
+
     li {
       list-style: none;
       margin: 10px 0;
