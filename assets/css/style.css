@@ -154,45 +154,49 @@ a {
 /* ---------------------------------------------- STRENGTHS */
 
 #styrka-outer {
+  padding: 50px 0;
+
+  & > div:first-child {
+    justify-content: center;
+  }
+}
+
+.icon-text {
+  text-align: center;
+  width: 80%;
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+#icon-btn {
+  width: 80%;
+  margin: 50px 0;
+}
+
+.icon-card {
   flex-direction: column;
   align-items: center;
-  padding: 25px 0;
+}
 
-  & > div {
-    width: 80%;
-    margin: 25px 0;
-    flex-direction: column;
-    align-items: center;
-  }
+.icons {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+}
 
-  .icons {
-    margin-bottom: 25px;
-  }
-
-  #heart {
-    margin-top: 0;
-  }
-
-  .icon-text {
-    text-align: center;
-
-    h2 {
-      font-size: 24px;
-    }
-
-    p {
-      font-size: 16px;
-    }
-  }
-
-  #icon-btn {
-    width: 80%;
-  }
+#heart {
+  margin-top: 0;
 }
 
 /* ---------------------------------------------- MEDIA QUERIES */
 
-@media (min-width: 426px) {
+@media screen and (min-width: 426px) {
   #hero-text {
     border-radius: 0 20px 20px 0;
     width: 75%;
@@ -204,9 +208,12 @@ a {
 
     p {
       text-align: right;
-      /* font-size: 28px; */
       letter-spacing: 2px;
     }
+  }
+
+  #navbarContent {
+    flex-grow: 0.5 !important;
   }
 
   .navbar ul li:first-child {
@@ -214,12 +221,49 @@ a {
   }
 }
 
+@media screen and (min-width: 426px) and (max-width: 991px) {
+  #styrka-outer {
+    padding: 50px 25px;
+  }
+
+  .icon-card {
+    flex-direction: row !important;
+    align-items: center;
+  }
+
+  #reverse-row {
+    flex-direction: row-reverse !important;
+    padding: 25px 0;
+  }
+
+  .icon-text {
+    width: 50%;
+    text-align: left;
+
+    h2 {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+  #icon-btn {
+    width: 100%;
+  }
+}
+
 @media (min-width: 992px) {
   #hero-image {
-    height: 750px;
+    height: 600px;
   }
 
   #hero-text {
     top: 50%;
+  }
+
+  #icon-btn {
+    max-width: 30%;
   }
 }
