@@ -25,10 +25,10 @@ header {
   position: sticky;
   top: 0;
   z-index: 1;
-  padding: 1rem 0 0;
+  padding: 1rem 0;
 }
 
-figure img {
+.navbar-logo img {
   width: 100px;
 }
 
@@ -37,6 +37,11 @@ figure img {
 
   ul li {
     margin: 0 1rem;
+  }
+
+  /* add top margin on the first nav link */
+  ul li:first-child {
+    margin-top: 1rem;
   }
 }
 
@@ -128,8 +133,8 @@ a {
 
 /* Hero text with a transparent background */
 #hero-text {
-  position: absolute;
-  top: 50%;
+  position: relative;
+  top: -270px;
   background-color: var(--color-offwhite);
   opacity: 0.8;
   padding: 2rem;
@@ -164,6 +169,11 @@ a {
       /* font-size: 28px; */
       letter-spacing: 2px;
     }
+  }
+
+  /* remove top margin on first nav link */
+  .navbar ul li:first-child {
+    margin-top: 0;
   }
 }
 
