@@ -151,6 +151,45 @@ a {
   }
 }
 
+/* ---------------------------------------------- STRENGTHS */
+
+#styrka-outer {
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0;
+
+  & > div {
+    width: 80%;
+    margin: 25px 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icons {
+    margin-bottom: 25px;
+  }
+
+  #heart {
+    margin-top: 0;
+  }
+
+  .icon-text {
+    text-align: center;
+
+    h2 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  #icon-btn {
+    width: 80%;
+  }
+}
+
 /* ---------------------------------------------- MEDIA QUERIES */
 
 @media (min-width: 426px) {
