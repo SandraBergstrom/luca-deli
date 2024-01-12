@@ -8,7 +8,7 @@
 
   --font-family-h: "Playfair Display", serif;
   --font-family-p: "Roboto", sans-serif;
-  --font-family-b: "Lato", sans-serif;
+  --font-family-c: "Lato", sans-serif;
 }
 
 * {
@@ -25,7 +25,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 1;
-  padding: 1rem 0;
+  padding: 1rem 0 0;
 }
 
 figure img {
@@ -34,10 +34,10 @@ figure img {
 
 .navbar {
   background-color: var(--color-offwhite) !important;
-}
 
-nav ul li {
-  margin: 0 1rem;
+  ul li {
+    margin: 0 1rem;
+  }
 }
 
 /* ---------------------------------------------- BODY */
@@ -50,6 +50,7 @@ body {
 h1,
 h2 {
   font-family: var(--font-family-h);
+  font-weight: 700;
 }
 
 p {
@@ -58,13 +59,107 @@ p {
   color: var(--color-black);
 }
 
+.contrast-text {
+  font-family: var(--font-family-c);
+  font-weight: 500;
+}
+
 a {
   text-decoration: none;
   color: var(--color-darkgreen);
-}
+  font-weight: 600 !important;
 
-a:hover {
-  font-weight: bold;
+  /* when page is active the nav link to that page should be bold */
+  &.active {
+    font-weight: bold;
+    color: var(--color-darkgreen) !important;
+  }
+
+  &:hover {
+    color: var(--color-darkgreen) !important;
+  }
+
+  &:visited {
+    color: var(--color-darkgreen);
+  }
 }
 
 /* ---------------------------------------------- BUTTON */
+
+/* ---------------------------------------------- HERO SECTION */
+#hero-image {
+  min-height: 400px;
+  width: 100%;
+  background-color: white;
+  background: url(../images/hero.webp) no-repeat center center;
+  background-size: cover;
+  position: relative;
+
+  /* overlay */
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--color-offwhite);
+    opacity: 0.5;
+  }
+}
+
+/* Hero text with a transparent background */
+#hero-text {
+  position: absolute;
+  top: 50%;
+  background-color: var(--color-offwhite);
+  opacity: 0.8;
+  padding: 2rem;
+  color: var(--color-darkgreen);
+
+  h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--color-black);
+  }
+
+  p {
+    text-align: center;
+    letter-spacing: 1px;
+  }
+}
+
+/* ---------------------------------------------- MEDIA QUERIES */
+
+@media (min-width: 768px) {
+  #hero-text {
+    border-radius: 0 20px 20px 0;
+    width: 75%;
+
+    h1 {
+      letter-spacing: 1px;
+      text-align: right;
+    }
+
+    p {
+      text-align: right;
+      font-size: 28px;
+      letter-spacing: 2px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  #hero-image {
+    height: 750px;
+  }
+  #hero-text {
+    h1 {
+      font-size: 3rem;
+    }
+
+    p {
+      font-size: 28px;
+    }
+  }
+}
