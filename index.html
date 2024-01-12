@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="container">
       <!-- Navigation -->
       <nav class="navbar navbar-expand-md">
         <div class="container-fluid mx-3">
@@ -126,12 +126,33 @@
     </main>
 
     <footer>
-      <div>
-        <div>adress</div>
-        <div>social</div>
+      <div class="row dark-green-bg">
+        <div class="col-sm-12 col-md-4 d-flex footer-sections" id="footer-logo">
+          <img src="./assets/images/logo/logo-vit.png" alt="Luca Deli logo" />
+        </div>
+        <div class="col-sm-12 col-md-4 d-flex footer-sections">
+          <div id="footer-contact-info">
+            <p>Storgatan 53</p>
+            <p>113 13 Stockholm</p>
+          </div>
+          <div>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 d-flex footer-sections">
+          <ul>
+            <li>
+              <a href="#">Bokningsvillkor</a>
+            </li>
+            <li>
+              <a href="#">Integritetspolicy</a>
+            </li>
+            <li>© 2024 Luca Deli.</li>
+          </ul>
+        </div>
       </div>
-      <div>logo</div>
-      <div>legal</div>
     </footer>
 
     <!-- Bootstrap JS -->
@@ -142,6 +163,10 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"></script>
+    <!-- FontAwesome JS -->
+    <script
+      src="https://kit.fontawesome.com/16606b6431.js"
       crossorigin="anonymous"></script>
   </body>
 </html>
