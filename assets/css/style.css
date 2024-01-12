@@ -39,7 +39,6 @@ header {
     margin: 0 1rem;
   }
 
-  /* add top margin on the first nav link */
   ul li:first-child {
     margin-top: 1rem;
   }
@@ -133,8 +132,8 @@ a {
 
 /* Hero text with a transparent background */
 #hero-text {
-  position: relative;
-  top: -270px;
+  position: absolute;
+  top: 210px;
   background-color: var(--color-offwhite);
   opacity: 0.8;
   padding: 2rem;
@@ -154,7 +153,7 @@ a {
 
 /* ---------------------------------------------- MEDIA QUERIES */
 
-@media (min-width: 768px) {
+@media (min-width: 426px) {
   #hero-text {
     border-radius: 0 20px 20px 0;
     width: 75%;
@@ -171,7 +170,6 @@ a {
     }
   }
 
-  /* remove top margin on first nav link */
   .navbar ul li:first-child {
     margin-top: 0;
   }
@@ -181,9 +179,8 @@ a {
   #hero-image {
     height: 750px;
   }
+
   #hero-text {
-    h1 {
-      /* font-size: 3rem; */
-    }
+    top: 50%;
   }
 }
