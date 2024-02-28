@@ -2,6 +2,26 @@
 
 Welcome to the Luca Deli project! This endeavor began as a personal challenge to deepen my understanding of Figma and to translate a design vision into a fully functional webpage using HTML and SCSS. The project embodies a conceptual vegetarian deli brand, focusing on sustainability, luxury, and the convenience of enjoying high-quality, plant-based delicacies at home.
 
+## Table of Content
+
+  * [Project Overview](#project-overview)
+  * [Design](#design)
+    + [User Personas](#user-personas)
+    + [Color Palette:](#color-palette-)
+    + [Typography:](#typography-)
+    + [User Flow and Design Details](#user-flow-and-design-details)
+      - [Landing Page](#landing-page)
+      - [Ordering Form – Medium and Large Screens](#ordering-form---medium-and-large-screens)
+      - [Confirmation Page – Medium and Large Screens](#confirmation-page---medium-and-large-screens)
+      - [Ordering Form and Confirmation – Small Screens](#ordering-form-and-confirmation---small-screens)
+  * [Development](#development)
+    + [Technologies Used](#technologies-used)
+    + [Key Features](#key-features)
+  * [Learning Outcomes](#learning-outcomes)
+  * [Summary](#summary)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 ## Project Overview
 
 Luca Deli represents my journey from design to code. Starting with Figma, I created a design that encapsulates the essence of a vegetarian deli's digital presence. Following the design phase, I brought the concept to life using HTML and SCSS, focusing on responsive design principles and modern web standards.
