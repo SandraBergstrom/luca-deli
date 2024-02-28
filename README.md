@@ -17,7 +17,7 @@ The design phase was meticulously carried out in Figma, where I aimed to capture
 
 ### Color Palette:
 
-![color palette](/assets/images/doc/color-scheme.jpg)
+![color palette](/assets/images/doc/color-scheme.jpg)<br>
 
 The color scheme of Luca Deli is a sophisticated blend of natural tones, each chosen for its symbolic significance and contribution to the overall aesthetic of luxury and sustainability. Here's a detailed look at the palette:
 
@@ -35,7 +35,7 @@ This color palette combines sophisticated and natural tones to evoke a sense of 
 
 ### Typography:
 
-![typography](/assets/images/doc/fonts.png)
+![typography](/assets/images/doc/fonts.png)<br>
 **Headlines**: Playfair Display for a luxurious feel.<br>
 **Call-to-Actions**: Lato for clarity and modernity.<br>
 **Body Text**: Roboto for readability and comfort.
