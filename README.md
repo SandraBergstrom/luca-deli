@@ -8,7 +8,7 @@ Luca Deli represents my journey from design to code. Starting with Figma, I crea
 
 ### Design
 
-The design phase was conducted in Figma, where I aimed to create a layout that is both visually appealing and user-friendly. You can view my Figma design here: [link to figma]([#](https://www.figma.com/file/8UQXTDyFDgVEoU50DqRkoe/Luca-Deli?type=design&node-id=0%3A1&mode=design&t=15XNAGwIs9Xnic6i-1))
+The design phase was conducted in Figma, where I aimed to create a layout that is both visually appealing and user-friendly. You can view my Figma design here: [link to figma](https://www.figma.com/file/8UQXTDyFDgVEoU50DqRkoe/Luca-Deli?type=design&node-id=0%3A1&mode=design&t=15XNAGwIs9Xnic6i-1)
 
 ### Implementation
 
