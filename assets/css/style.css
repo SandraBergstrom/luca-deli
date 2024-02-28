@@ -55,8 +55,7 @@ p {
 a {
   text-decoration: none;
   color: var(--color-darkgreen);
-  font-weight: 600 !important;
-  /* when page is active the nav link to that page should be bold */ }
+  font-weight: 600 !important; }
   a.active {
     font-weight: bold;
     color: var(--color-darkgreen) !important; }
@@ -186,6 +185,13 @@ footer {
 
 #footer-logo img {
   width: 250px; }
+
+/* ---------------------------------------------- MODAL */
+#order-modal {
+  color: var(--color-darkgreen);
+  background-color: var(--color-beige);
+  border: none;
+  width: 150%; }
 
 /* ---------------------------------------------- MEDIA QUERIES */
 @media screen and (min-width: 426px) {
