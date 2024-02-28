@@ -72,11 +72,17 @@ View the complete Figma design [here](https://www.figma.com/file/8UQXTDyFDgVEoU5
 
 The development phase brought the Figma designs to life. Using HTML and SCSS, I crafted a responsive front-end that faithfully represents the envisioned design across various devices. The project was developed in Visual Studio Code, with version control managed through GitHub, showcasing effective collaboration and code quality management.
 
+### Technologies Used
+
+- **HTML**: The backbone of the project, structuring the web content and layout.
+- **SCSS**: Used for styling, allowing more variables and nested rules for cleaner CSS.
+- **Bootstrap**: Integrated to ensure responsiveness and to implement a consistent design system quickly and efficiently. The use of Bootstrap's grid system, components, and utilities helped in achieving a mobile-first design that adapts seamlessly across all devices.
+- **Figma**: All designs were initially created in Figma, facilitating a visual blueprint for the webpage's layout, colors, and typography.
+
 ### Key Features
 
 - **Responsive Design**: Ensures an optimal viewing experience across all devices.
 - **SCSS Architecture**: Utilizes the power of SCSS for efficient and maintainable styling.
-- **Dynamic WordPress Theme**: Transitioned from static HTML to a dynamic theme, integrating PHP and leveraging WordPress CMS capabilities.
 
 ## Learning Outcomes
 
