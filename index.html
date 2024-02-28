@@ -184,11 +184,11 @@
       aria-hidden="true"
       aria-labelledby="exampleModalToggleLabel"
       tabindex="-1">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
+      <div class="modal-dialog modal-dialog-centered custom-modal-width">
+        <div class="modal-content" id="order-modal">
           <div class="modal-header">
             <h1 class="modal-title fs-5" id="exampleModalToggleLabel">
-              Modal 1
+              Beställningsformulär
             </h1>
             <button
               type="button"
@@ -196,17 +196,106 @@
               data-bs-dismiss="modal"
               aria-label="Close"></button>
           </div>
-          <div class="modal-body">
-            Show a second modal and hide this one with the button below.
-          </div>
-          <div class="modal-footer">
-            <button
-              class="btn btn-primary"
-              data-bs-target="#exampleModalToggle2"
-              data-bs-toggle="modal">
-              Open second modal
-            </button>
-          </div>
+          <form action="">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-12 col-md-6">
+                    <div class="form-floating mb-3">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        placeholder="Name" />
+                      <label for="name">Förnamn Efternamn</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="address"
+                        placeholder="Address" />
+                      <label for="address">Gatuadress</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="city"
+                        placeholder="City" />
+                      <label for="city">Stad</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="zip"
+                        placeholder="Zip" />
+                      <label for="zip">Postnummer</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                      <input
+                        type="tel"
+                        class="form-control"
+                        id="phone"
+                        placeholder="Phone" />
+                      <label for="phone">Telefonnummer</label>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-6">
+                        <div class="form-floating mb-3">
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="portions"
+                            placeholder="Portions" />
+                          <label for="portions">Antal Portioner</label>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6">
+                        <div class="form-floating mb-3">
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="date"
+                            placeholder="Date" />
+                          <label for="date">Avhämtning</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-floating mb-3">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="allergies"
+                        placeholder="Allergies" />
+                      <label for="allergies">Allergier</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                      <input
+                        type="textarea"
+                        class="form-control"
+                        id="other"
+                        rows="3"
+                        placeholder="Other" />
+                      <label for="other">Övrigt</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="submit"
+                class="btn cta-btn"
+                data-bs-target="#exampleModalToggle2"
+                data-bs-toggle="modal">
+                Skicka Order!
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
@@ -220,7 +309,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">
-              Modal 2
+              Orderbekräftelse
             </h1>
             <button
               type="button"
@@ -232,22 +321,11 @@
             Hide this modal and show the first with the button below.
           </div>
           <div class="modal-footer">
-            <button
-              class="btn btn-primary"
-              data-bs-target="#exampleModalToggle"
-              data-bs-toggle="modal">
-              Back to first
-            </button>
+            <button class="btn cta-btn" data-bs-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
     </div>
-    <button
-      class="btn btn-primary"
-      data-bs-target="#exampleModalToggle"
-      data-bs-toggle="modal">
-      Open first modal
-    </button>
 
     <!-- Bootstrap JS -->
     <script

@@ -98,7 +98,7 @@ a {
 .cta-btn {
   background-color: var(--color-darkgreen);
   color: var(--color-offwhite);
-  border: none;
+  border: transparent;
   border-radius: 5px;
   padding: 0.5rem 1rem;
   font-size: 1.2rem;
@@ -258,11 +258,43 @@ footer {
 }
 
 /* ---------------------------------------------- MODAL */
+.custom-modal-width {
+  max-width: 80%;
+
+  @media (min-width: 1080px) {
+    max-width: 60%;
+  }
+}
+
 #order-modal {
   color: var(--color-darkgreen);
   background-color: var(--color-beige);
   border: none;
-  width: 150%;
+  padding: 25px;
+
+  --bs-modal-header-border-color: transparent;
+  --bs-modal-footer-border-color: transparent;
+
+  .modal-header {
+    margin: 15px 0 25px 0;
+
+    h1 {
+      font-size: 42px !important;
+      text-align: center;
+    }
+  }
+
+  .modal-body {
+    padding: 0;
+  }
+
+  input {
+    padding: 5px;
+  }
+
+  #other {
+    height: 204px;
+  }
 }
 
 /* ---------------------------------------------- MEDIA QUERIES */
