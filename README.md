@@ -1,24 +1,82 @@
 # Luca Deli
 
-Welcome to the repository for Luca Deli, a project where I ventured into the world of design and coding by taking on the challenge of learning Figma and then translating a design concept into a functional webpage. This endeavor was an independent effort to enhance my skills in both design and web development.
+Welcome to the Luca Deli project! This endeavor began as a personal challenge to deepen my understanding of Figma and to translate a design vision into a fully functional webpage using HTML and SCSS. The project embodies a conceptual vegetarian deli brand, focusing on sustainability, luxury, and the convenience of enjoying high-quality, plant-based delicacies at home.
 
 ## Project Overview
 
 Luca Deli represents my journey from design to code. Starting with Figma, I created a design that encapsulates the essence of a vegetarian deli's digital presence. Following the design phase, I brought the concept to life using HTML and SCSS, focusing on responsive design principles and modern web standards.
 
-### Design
+## Design
 
-The design phase was conducted in Figma, where I aimed to create a layout that is both visually appealing and user-friendly. You can view my Figma design here: [link to figma](https://www.figma.com/file/8UQXTDyFDgVEoU50DqRkoe/Luca-Deli?type=design&node-id=0%3A1&mode=design&t=15XNAGwIs9Xnic6i-1)
+The design phase was meticulously carried out in Figma, where I aimed to capture the essence of Luca Deli—a brand that marries the sophistication of gourmet food with the principles of environmental consciousness. The user personas, including the "Environmentally Conscious Party Planner" and the "Health-Conscious Luxurious Consumer," guided the design process, ensuring the final product resonated with the target audience's needs and values.
 
-### Implementation
+### User Personas
 
-For the coding phase, I chose HTML and SCSS to translate my design into a functional prototype. This choice allowed me to practice semantic HTML markup and advanced CSS features, such as variables and nesting, provided by SCSS.
+- **Environmentally Conscious Party Planner**: A vegetarian event planner looking for unique, tasty, and eco-friendly catering options.
+- **Health-Conscious Luxurious Consumer**: Prefers vegetarian options for a healthier lifestyle and indulges in high-quality food for weekend treats.
 
-## Key Features
+### Color Palette:
 
-- **Responsive Design:** Ensures that the webpage is accessible and visually appealing across a variety of devices.
-- **Modern Layout:** Utilizes modern CSS features, including Flexbox and Grid, to achieve a layout that matches the design concept.
-- **SCSS Architecture:** Employs SCSS to organize stylesheets in a modular and maintainable way.
+![color palette](/assets/images/doc/color-scheme.jpg)
+
+The color scheme of Luca Deli is a sophisticated blend of natural tones, each chosen for its symbolic significance and contribution to the overall aesthetic of luxury and sustainability. Here's a detailed look at the palette:
+
+1. **Deep Forest Green (#013220):** This rich, dark shade of green adds depth and sophistication. It symbolizes a strong connection to nature and underscores the brand's focus on sustainability and quality.
+
+2. **Light Olive Green (#789262):** A softer, lighter green that complements the deeper forest green. This color conveys freshness and naturalness, perfect for highlighting the green, vegetarian aspects of the "home luxury bag."
+
+3. **Creamy Off-White (#F1F1EA):** This subtly warm shade of white serves as an excellent background color. It offers a clean and soothing sensation, making it easier for other colors to stand out and speaks to the simplicity and purity in the brand's design.
+
+4. **Light Beige (#CBC8B6):** A neutral, earthy color that provides a balanced and harmonious feel. Ideal for creating a sense of calm luxury and for accentuating the brand's exclusivity.
+
+5. **Dark Charcoal Grey (#1A1716):** This almost black hue delivers a strong and elegant impression. It is best used in small doses to create contrast and depth, as well as to add a modern and sophisticated touch.
+
+This color palette combines sophisticated and natural tones to evoke a sense of luxury and sustainability, forming the backbone of Luca Deli's visual identity.
+
+### Typography:
+
+![typography](/assets/images/doc/fonts.png)
+**Headlines**: Playfair Display for a luxurious feel.<br>
+**Call-to-Actions**: Lato for clarity and modernity.<br>
+**Body Text**: Roboto for readability and comfort.
+
+### User Flow and Design Details
+
+The layout and aesthetic choices for Luca Deli's web presence are carefully crafted to guide users through a journey that highlights the brand's emphasis on sustainability and luxury. Here, we detail the user's path through the site, accompanied by insights into the design decisions that make this journey intuitive and engaging.
+
+#### Landing Page
+
+![landing page](/assets/images/doc/landingpage.png)<br>
+The entry point sets the stage with a focus on the "home luxury bag," employing a sophisticated color palette to mirror the brand's ethos. The design choices here are aimed at drawing the user in, with strategic use of typography and color to balance modernity with tradition.
+
+#### Ordering Form – Medium and Large Screens
+
+![ordering ml](/assets/images/doc/booking.png)<br>
+Designed for functionality and aesthetics, the ordering form simplifies the process of customizing orders. This section exemplifies how design facilitates user action, making the task of ordering seamless and straightforward.
+
+#### Confirmation Page – Medium and Large Screens
+
+![confirmation](/assets/images/doc/confirm.png)<br>
+Upon order completion, the confirmation page reassures users with a clear summary of their order. The consistency in design reinforces brand identity and ensures the user feels valued and informed.
+
+#### Ordering Form and Confirmation – Small Screens
+
+![order sm](/assets/images/doc/confirm-mobile.png)<br>
+The mobile-optimized design underscores the importance of accessibility and ease of use, ensuring the brand's values and offerings are clearly communicated, regardless of device size.
+
+This section not only outlines the user's navigational path but also highlights the deliberate design choices made to enhance the user experience, marrying functionality with aesthetic appeal across all touchpoints.
+
+View the complete Figma design [here](https://www.figma.com/file/8UQXTDyFDgVEoU50DqRkoe/Luca-Deli).
+
+## Development
+
+The development phase brought the Figma designs to life. Using HTML and SCSS, I crafted a responsive front-end that faithfully represents the envisioned design across various devices. The project was developed in Visual Studio Code, with version control managed through GitHub, showcasing effective collaboration and code quality management.
+
+### Key Features
+
+- **Responsive Design**: Ensures an optimal viewing experience across all devices.
+- **SCSS Architecture**: Utilizes the power of SCSS for efficient and maintainable styling.
+- **Dynamic WordPress Theme**: Transitioned from static HTML to a dynamic theme, integrating PHP and leveraging WordPress CMS capabilities.
 
 ## Learning Outcomes
 
@@ -26,12 +84,8 @@ For the coding phase, I chose HTML and SCSS to translate my design into a functi
 - **From Design to Code:** Developed the ability to accurately translate design concepts into functional web pages.
 - **Advanced CSS Techniques:** Enhanced understanding of SCSS, including variables, mixins, and nesting, to write more efficient and maintainable CSS.
 
-## Project Status
+## Summary
 
-This project is a showcase of my learning journey and is currently not intended for commercial use. It serves as a testament to my dedication to learning new skills and improving my craft in web development and design.
+Luca Deli's web design project is an exploration of translating a detailed design concept from Figma into a responsive and aesthetically pleasing website. It underscores my journey in learning design tools and web development technologies, focusing on user-centered design, sustainability, and the luxury of vegetarian cuisine.
 
-## Feedback
-
-I'm always looking to improve and learn more! If you have any feedback, suggestions, or questions about this project, feel free to reach out or open an issue in this repository.
-
-Thank you for visiting my project!
+For more information, feedback, or inquiries, feel free to reach out. Thank you for visiting my project!
