@@ -2,6 +2,8 @@
 
 Welcome to the Luca Deli project! This endeavor began as a personal challenge to deepen my understanding of Figma and to translate a design vision into a fully functional webpage using HTML and SCSS. The project embodies a conceptual vegetarian deli brand, focusing on sustainability, luxury, and the convenience of enjoying high-quality, plant-based delicacies at home.
 
+View project here: https://sandrabergstrom.github.io/luca-deli/?
+
 ## Table of Content
 
   * [Project Overview](#project-overview)
